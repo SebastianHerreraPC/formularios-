@@ -11,14 +11,22 @@
       <div class="form__container">
         <h1 class="form__title">Formulario</h1>
         <form action="" class="form__elements" id="contactForm">
-          <label for="name" class="form__label" id="name"></label>
-          <input type="text" class="form__input" />
-          <label for="correo" class="form__label" id="correo"></label>
-          <input type="text" class="form__input" />
-          <label for="telefono" class="form__label" id="telefono"></label>
-          <input type="text" class="form__input" />
-          <label for="url" class="form__label" id="url"></label>
-          <input type="text" class="form__input" />
+          <label for="name" class="form__label" id="name">Nombre</label>
+          <input type="text" class="form__input" placeholder="Nombre" />
+          <label for="correo" class="form__label" id="correo">Correo</label>
+          <input type="email" class="form__input" placeholder="email" />
+          <label for="telefono" class="form__label" id="telefono"
+            >Telefono</label
+          >
+          <input type="number" class="form__input" placeholder="Numero" />
+          <label for="url" class="form__label" id="url">Url</label>
+          <input
+            type="url"
+            class="form__input"
+            placeholder="enlace"
+            minlength="4"
+            maxlength="250"
+          />
         </form>
       </div>
     </div>

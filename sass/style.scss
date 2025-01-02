@@ -12,13 +12,24 @@ div {
 
 h1 {
   color: $primary-color;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .form {
   background-color: rgb(197, 197, 197);
   border: 1px solid $bordercolor;
 
+  &__container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $bordercolor;
+  }
+  &__elements {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 200px;
+  }
   &__input {
     border: 1px solid $bordercolor;
   }

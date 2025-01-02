@@ -2,6 +2,10 @@ body {
   background-color: darkgray;
 }
 
+div {
+  border: 1px solid red;
+}
+
 h1 {
   color: white;
   font-size: 3rem;
@@ -9,6 +13,21 @@ h1 {
 
 .form {
   background-color: rgb(197, 197, 197);
+  border: 1px solid red;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.form__elements {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 200px;
+}
+.form__input {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
