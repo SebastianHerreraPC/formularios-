@@ -1,0 +1,25 @@
+$primary-color: white;
+$secondary-color: black;
+$background-color: darkgray;
+$bordercolor: red;
+
+body {
+  background-color: $background-color;
+}
+div {
+  border: 1px solid $bordercolor;
+}
+
+h1 {
+  color: $primary-color;
+  font-size: 2rem;
+}
+
+.form {
+  background-color: rgb(197, 197, 197);
+  border: 1px solid $bordercolor;
+
+  &__input {
+    border: 1px solid $bordercolor;
+  }
+}
